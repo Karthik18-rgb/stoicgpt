@@ -23,6 +23,7 @@ typing_extensions==4.13.2
 uvicorn==0.34.2
 streamlit 
 requests 
+qrcode[pil]
 jinja2 
 fpdf 
 reportlab 
