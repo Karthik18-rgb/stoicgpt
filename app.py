@@ -3,6 +3,14 @@ import qrcode
 from io import BytesIO
 from modules.budget_analyzer.backend.pdf_generator import generate_pdf
 from modules.budget_analyzer.backend.gpt_predictor import get_gpt_advice
+# --- PWA install support ---
+st.markdown(
+    """
+    <link rel="manifest" href="manifest.json">
+    """,
+    unsafe_allow_html=True,
+)
+
 
 st.set_page_config(page_title="Stoic Budget", page_icon="💰")
 
